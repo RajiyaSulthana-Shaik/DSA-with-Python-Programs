@@ -1,3 +1,4 @@
+#Find Largest element in array
 def largestele(arr):
     if not arr:
         return "no element in arr";
@@ -11,7 +12,7 @@ arr = [5];
 res1 = largestele(arr);
 print(res1)
 
-
+# Find Second Largest Element in array
 def secondlarge(arr):
     if len(arr)<2:
         return "no second large ele";
@@ -39,7 +40,7 @@ arr = [10,11,16,9,8000];
 res2 = secondlarge(arr);
 print(res2);
 
-
+# Check if an array is sorted or not
 def sortedarr(arr):
     if len(arr)<=1:
         return "array already sorted";
@@ -50,4 +51,4 @@ def sortedarr(arr):
     
 arr = [7,8,0];  
 res3 = sortedarr(arr);
-print(res3)
+print(res3);
